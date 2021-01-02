@@ -2,6 +2,8 @@ using System;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using WebDriverManager;
+using WebDriverManager.DriverConfigs.Impl;
 
 namespace SeleniumCsharpNetCore
 {
@@ -13,7 +15,7 @@ namespace SeleniumCsharpNetCore
         {
             ChromeOptions option = new ChromeOptions();
             option.AddArgument("--headless");
-            //new DriverManager().SetupDriver(new ChromeConfig());
+            new DriverManager().SetUpDriver(new ChromeConfig());
 
             Console.WriteLine("Setup");
 
