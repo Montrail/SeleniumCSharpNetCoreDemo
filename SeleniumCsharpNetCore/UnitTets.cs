@@ -17,7 +17,7 @@ namespace SeleniumCsharpNetCore
 
             option.AddArgument("--window-size=1920,1080");
             option.AddArgument("--start-maximized");
-            //option.AddArgument("--headless");
+            option.AddArgument("--headless");
 
             new DriverManager().SetUpDriver(new ChromeConfig());
 
