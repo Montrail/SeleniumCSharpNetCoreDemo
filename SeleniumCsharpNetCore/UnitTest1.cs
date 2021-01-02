@@ -23,7 +23,7 @@ namespace SeleniumCsharpNetCore
         }
 
         [Test]
-        public void Test1()
+        public void TestComboController()
         {
             Driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com");
 
