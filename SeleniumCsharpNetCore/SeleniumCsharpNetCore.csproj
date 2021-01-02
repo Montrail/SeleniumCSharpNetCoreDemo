@@ -17,4 +17,7 @@
   <ItemGroup>
     <Compile Remove="CustomControl %28copy%29.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
+  </ItemGroup>
 </Project>
